@@ -42,6 +42,12 @@ public class StreamShortCircuit {
 		System.out.println(ar2List.stream().allMatch(x->x.contains("sha") ) );
 		System.out.println(ar2List.stream().allMatch(x->x.contains("New") ) );
 		
+	//  noneMatch(Predicate)
+	// Returns false at the first matching element.
+		System.out.println("######NONmatch#######");
+		System.out.println( ar2List.stream().noneMatch(x->x.contains("sha")));
+		System.out.println( ar2List.stream().noneMatch(x->x.contains("New")));
+		
 		/*
 		 * anyMatch(Predicate)
 Returns true if any element matches the predicate. Stops at the first match.
