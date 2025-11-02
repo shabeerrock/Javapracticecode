@@ -23,13 +23,11 @@ Advanced
 15. Given a list of strings, group a list of strings by the length of the string 
 16. Given a list of strings, create a map where the key is the first letter of the string, and the value is a list of strings that start with that letter using streams
 17. Given a list of strings, group the list of strings with vowels and no vowels into two lists
-
-
-
 18. Given a list of strings print only the string elements excluding the digits using streams.
 19. Given a list of strings find the first element having the length as 10 if not handle exceptions
 20. Reverse the list of strings using streams api
 
+---------------------------------------------------------------------------------------------------------------------------------------
 
 Top coding interview questions in Streams API - Using Numbers
 Basics
